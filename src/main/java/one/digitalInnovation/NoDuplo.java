@@ -3,8 +3,8 @@ package one.digitalInnovation;
 public class NoDuplo<T>{
 
     private T conteudo;
-    private NoDuplo<T> noProximo = null;
-    private NoDuplo<T> noAnterior = null;
+    private NoDuplo<T> noProximo;
+    private NoDuplo<T> noAnterior;
 
     public NoDuplo(T conteudo) {
         this.conteudo = conteudo;
